@@ -116,7 +116,39 @@ public class Seguro {
 	 *         0 si el seguro todavía no está en vigor (no se ha alcanzado su fecha de inicio)
      */
 	public double precio() {
-		return 0;
+		if (LocalDate.now().isBefore(fechaInicio))
+			return 0;
+		
+		double precio = 0;
+
+		double costeCobertura = 0;
+
+		double costePotencia = 1;
+
+		double oferta = 1;
+
+		if (cobertura.equals(Cobertura.TODO_RIESGO)) {
+			costeCobertura = 1000;
+		} else if (cobertura.equals(Cobertura.TERCEROS_LUNAS)) {
+			costeCobertura = 600;
+		} else {
+			costeCobertura = 400;
+		}
+
+		if (potencia >= 90 && potencia <= 110) {
+			costePotencia = 1.05;
+		} else if (potencia > 110) {
+			costePotencia = 1.2;
+		}
+
+		if (LocalDate.now().isBefore(fechaInicio.plusYears(1)) || LocalDate.now().isEqual(fechaInicio.plusYears(1))) {
+			oferta = 0.80;
+		}
+
+		precio = costeCobertura*costePotencia*oferta;
+
+		return precio;
+
 	}
 	
 }
