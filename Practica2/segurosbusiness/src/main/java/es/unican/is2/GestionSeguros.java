@@ -81,6 +81,7 @@ public class GestionSeguros implements IGestionSeguros, IGestionClientes, IInfoS
         try {
             Seguro seg = segurosDAO.eliminaSeguro(s.getId());
             segurosDAO.actualizaSeguro(seg);
+            clientesDAO.actualizaCliente(c);
             return seg;
         } catch (DataAccessException e) {
             throw new DataAccessException();
