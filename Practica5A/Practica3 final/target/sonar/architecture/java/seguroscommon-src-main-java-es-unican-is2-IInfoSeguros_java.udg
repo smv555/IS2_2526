@@ -1,0 +1,152 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774991369686*java2.BÔ
+@
+;seguroscommon/src/main/java/es/unican/is2/IInfoSeguros.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+seguroscommon6
+
+package8
+ 
+seguroscommon:es.unican.is29
+ 
+es.unican.is2.IInfoSeguros11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(29:2)16
+
+simple-name17
+
+IInfoSeguros18
+S
+Mes.unican.is2.IInfoSeguros#cliente(Ljava/lang/String;)Les/unican/is2/Cliente;20
+
+method21
+
+(17:2)-(17:64)22
+
+cliente23
+
+es.unican.is2.Cliente25
+
+unknown26
+
+returns27
+
+
+uses28
+'
+!es.unican.is2.DataAccessException30
+Q
+Kes.unican.is2.IInfoSeguros#seguro(Ljava/lang/String;)Les/unican/is2/Seguro;32
+
+(27:2)-(27:68)33
+
+seguro34
+
+es.unican.is2.Seguro36J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j¨
+
+24
+242526
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+19H
+192021 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+22
+
+
+17
+23
+N
+31H
+313221 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+33
+
+
+17
+34
+
+35
+353626
+
+29
+293026r¢
+
+192427*
+1	 (
+
+192428*
+1	 (
+
+192928*
+1, (?
+
+313527*
+1	 (
+
+313528*
+1	 (
+
+312928*
+10 (C

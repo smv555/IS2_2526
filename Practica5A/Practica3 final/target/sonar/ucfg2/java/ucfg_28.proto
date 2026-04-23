@@ -1,0 +1,66 @@
+
+Oes.unican.is2.GestionSeguros#cliente(Ljava/lang/String;)Les/unican/is2/Cliente;K
+?segurosbusiness\src\main\java\es\unican\is2\GestionSeguros.javaè è("startingBlock*®
+3
+í í(1k
+i
+
+í í(1
+ces.unican.is2.Cliente"__id*9
+
+__unknown_file (
+
+%1es.unican.is2.Cliente"*
+
+ì ì(
+
+ces.unican.is2.Cliente*ä
+startingBlock
+è è(&å
+â
+
+é é(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+dnijava.lang.StringY
+W
+
+è" è(%
+dnijava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+4*Ø
+4
+í í(#Ü
+É
+
+í í(# 
+%0es.unican.is2.IClientesDAO"__id*M
+
+__unknown_file (1*/
+es.unican.is2.GestionSeguros"
+clientesDAOèå
+
+í í(0
+%1es.unican.is2.Cliente"Mes.unican.is2.IClientesDAO#cliente(Ljava/lang/String;)Les/unican/is2/Cliente;*>
+
+__unknown_file ("
+ 
+%0es.unican.is2.IClientesDAO*5
+
+__unknown_file (
+
+dnijava.lang.String2cliente(Ljava/lang/String;)*
+3:%
+
+è è(%
+dnijava.lang.StringB 
+es.unican.is2.GestionSegurosHh

@@ -1,0 +1,230 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774991365661*java2.B¼
+?
+:segurosdaoh2/src/main/java/es/unican/is2/SeguroMapper.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+segurosdaoh26
+
+package8
+
+segurosdaoh2:es.unican.is29
+ 
+es.unican.is2.SeguroMapper11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(42:2)16
+
+simple-name17
+
+SeguroMapper18
+U
+Oes.unican.is2.SeguroMapper#toSeguro(Ljava/sql/ResultSet;)Les/unican/is2/Seguro;20
+
+method21
+
+(19:2)-(40:3)22
+
+toSeguro23
+
+es.unican.is2.Seguro25
+
+unknown26
+
+returns27
+
+
+uses28
+'
+!es.unican.is2.DataAccessException30
+
+is type31
+
+es.unican.is2.Cobertura33
+
+
+references34
+R
+Les.unican.is2.Cobertura#valueOf(Ljava/lang/String;)Les/unican/is2/Cobertura;36
+
+calls37
+<
+6es.unican.is2.Seguro#setMatricula(Ljava/lang/String;)V39
+C
+=es.unican.is2.Seguro#setCobertura(Les/unican/is2/Cobertura;)V41
+*
+$es.unican.is2.Seguro#setPotencia(I)V43
+E
+?es.unican.is2.Seguro#setConductorAdicional(Ljava/lang/String;)V45
+A
+;es.unican.is2.Seguro#setFechaInicio(Ljava/time/LocalDate;)V47
+$
+es.unican.is2.Seguro#setId(J)V49J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jä
+
+38
+383926
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+40
+404126
+
+48
+484926
+N
+19H
+192021 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+22
+
+
+17
+23
+
+44
+444526
+
+32
+323326
+
+42
+424326
+
+24
+242526
+
+29
+293026
+
+35
+353626
+
+46
+464726r£
+
+192427*
+1 (
+
+192428*
+1 (
+
+192928*
+1: (M
+
+192431*
+1
+ (
+
+192428*
+1 (	
+
+193231*
+1 (
+
+193228*
+1 (
+
+193227*
+1 (+
+
+193234*
+1 (+
+
+193537*
+1$ (+
+
+193228*
+1 (#
+
+192437*
+1 (
+
+192434*
+1 (
+
+193837*
+1 (
+
+192434*
+1 (
+
+194037*
+1 (
+
+192434*
+1   (
+
+194237*
+1   (
+
+192434*
+1! !(
+
+194437*
+1! !(
+
+192434*
+1" "(
+
+194637*
+1" "(
+
+192434*
+1# #(
+
+194837*
+1# #(
+
+192937*
+1& &(!

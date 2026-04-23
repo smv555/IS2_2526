@@ -1,0 +1,134 @@
+
+Res.unican.is2.ClienteMapper#toCliente(Ljava/sql/ResultSet;)Les/unican/is2/Cliente;E
+;segurosdaoh2\src\main\java\es\unican\is2\ClienteMapper.java ( "12*€
+5 (∆√
+ (!
+
+%7void"'es.unican.is2.Cliente#setMinusvalia(Z)V*;
+
+__unknown_file (
+
+contes.unican.is2.Cliente*3
+
+__unknown_file (
+
+
+minusvaliaboolean2setMinusvalia(Z)*
+1*˙
+6 (Â‚
+ (
+
+%6void"4es.unican.is2.Cliente#setNombre(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+contes.unican.is2.Cliente*8
+
+__unknown_file (
+
+nombrejava.lang.String2setNombre(Ljava/lang/String;)*
+5*ﬂ
+7 (l
+j
+ (
+contes.unican.is2.Cliente"__id*9
+
+__unknown_file (
+
+%3es.unican.is2.Cliente‹Ÿ
+ (
+
+%5void"1es.unican.is2.Cliente#setDni(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+contes.unican.is2.Cliente*5
+
+__unknown_file (
+
+dnijava.lang.String2setDni(Ljava/lang/String;)*
+6*ú
+8 (9V
+T
+ (9
+
+minusvaliaboolean"__id*+
+
+__unknown_file (
+
+%2boolean@>
+ (
+%3es.unican.is2.Cliente"es.unican.is2.Clienten
+l
+
+ (
+%4"es.unican.is2.Cliente#<init>()V*9
+
+__unknown_file (
+
+%3es.unican.is2.Cliente*
+7*‘
+9 (/d
+b
+ (/
+nombrejava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.StringŸ÷
+ (8
+%2boolean"2java.sql.ResultSet#getBoolean(Ljava/lang/String;)Z*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet**
+
+__unknown_file (
+
+minusvalia2getBoolean(Ljava/lang/String;)*
+8*Ê
+10 ()a
+_
+ ()
+dnijava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.StringÌÍ
+ (.
+%1java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*&
+
+__unknown_file (
+
+nombre2getString(Ljava/lang/String;)*
+9*Å
+11 (ÍÁ
+ ((
+%0java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*#
+
+__unknown_file (
+dni2getString(Ljava/lang/String;)*
+10*k
+12 (U
+S
+ (
+contes.unican.is2.Cliente"__id*"
+
+__unknown_file (
+""*
+11*:
+1$	 $("+
+$ $(
+
+contes.unican.is2.Cliente:)
+! (2
+resultsjava.sql.ResultSetB"
+es.unican.is2.ClienteMapperHh

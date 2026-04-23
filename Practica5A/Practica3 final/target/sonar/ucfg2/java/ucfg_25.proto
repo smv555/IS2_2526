@@ -1,0 +1,123 @@
+
+qes.unican.is2.GestionSeguros#anhadeConductorAdicional(Ljava/lang/String;Ljava/lang/String;)Les/unican/is2/Seguro;I
+?segurosbusiness\src\main\java\es\unican\is2\GestionSeguros.java^ ^(*"startingBlock*6
+3g g("'
+g g(
+
+ses.unican.is2.Seguro*Ç
+startingBlock^* ^(Nê
+ç
+] ](
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	matriculajava.lang.String]
+[
+^2 ^(;
+	matriculajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8ê
+ç
+] ](
+%9"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	conductorjava.lang.String]
+[
+^D ^(M
+	conductorjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%9*
+7*º
+4d d(Å
+
+d d(
+%4es.unican.is2.ISegurosDAO"__id*L
+
+__unknown_file (0*.
+es.unican.is2.GestionSeguros"
+
+segurosDAO£†
+d d(-
+%5es.unican.is2.Seguro"Wes.unican.is2.ISegurosDAO#actualizaSeguro(Les/unican/is2/Seguro;)Les/unican/is2/Seguro;*=
+
+__unknown_file (!
+
+%4es.unican.is2.ISegurosDAO*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro2'actualizaSeguro(Les/unican/is2/Seguro;)*
+3*ê
+5c c(˚¯
+c c(2
+
+%3void"?es.unican.is2.Seguro#setConductorAdicional(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro*;
+
+__unknown_file (
+
+	conductorjava.lang.String2)setConductorAdicional(Ljava/lang/String;)*
+4*˜
+6a a(@g
+e
+a a(@
+ses.unican.is2.Seguro"__id*8
+
+__unknown_file (
+
+%1es.unican.is2.Segurow
+u
+b b(
+%2boolean"	__compare*
+b b(
+!=*'
+b b(
+
+ses.unican.is2.Seguro*
+b b(
+""*
+3
+5*æ
+7a a(!Å
+
+a a(!
+%0es.unican.is2.ISegurosDAO"__id*L
+
+__unknown_file (0*.
+es.unican.is2.GestionSeguros"
+
+segurosDAO•¢
+a a(?
+%1es.unican.is2.Seguro"Ves.unican.is2.ISegurosDAO#seguroPorMatricula(Ljava/lang/String;)Les/unican/is2/Seguro;*=
+
+__unknown_file (!
+
+%0es.unican.is2.ISegurosDAO*;
+
+__unknown_file (
+
+	matriculajava.lang.String2&seguroPorMatricula(Ljava/lang/String;)*
+6:)
+^+ ^(<
+	matriculajava.lang.String:)
+^= ^(M
+	conductorjava.lang.StringB 
+es.unican.is2.GestionSegurosHh

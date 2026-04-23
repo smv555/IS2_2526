@@ -1,0 +1,254 @@
+
+Oes.unican.is2.SeguroMapper#toSeguro(Ljava/sql/ResultSet;)Les/unican/is2/Seguro;D
+:segurosdaoh2\src\main\java\es\unican\is2\SeguroMapper.java ("20*ý
+13 (Ku
+s
+ (K$
+	coberturaes.unican.is2.Cobertura"__id*;
+
+__unknown_file (
+
+%5es.unican.is2.Coberturaïì
+" (?
+%6java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*(
+
+__unknown_file (
+
+potencia2getString(Ljava/lang/String;)*
+12*€
+14 (Jé
+æ
+ (J
+%5es.unican.is2.Cobertura"Les.unican.is2.Cobertura#valueOf(Ljava/lang/String;)Les/unican/is2/Cobertura;*7
+
+__unknown_file ("
+es.unican.is2.Cobertura*4
+
+__unknown_file (
+
+%4java.lang.String*
+13*ò
+15 (Bi
+g
+ (B
+fechajava.time.LocalDate"__id*7
+
+__unknown_file (
+
+%3java.time.LocalDateðí
++ (I
+%4java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*)
+
+__unknown_file (
+	cobertura2getString(Ljava/lang/String;)*
+14*³
+16 (Aœ™
+ (A
+%3java.time.LocalDate"0java.sql.Date#toLocalDate()Ljava/time/LocalDate;*1
+
+__unknown_file (
+
+%2java.sql.Date2toLocalDate()*
+15*è
+17 (5g
+e
+ (5
+	matriculajava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringèå
+ (3
+%2java.sql.Date"=java.sql.ResultSet#getDate(Ljava/lang/String;)Ljava/sql/Date;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*+
+
+__unknown_file (
+fechaInicio2getDate(Ljava/lang/String;)*
+16*Ñ
+18 (#H
+F
+ (#
+
+idlong"__id*(
+
+__unknown_file (
+
+
+%0longðí
+ (4
+%1java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*)
+
+__unknown_file (
+	matricula2getString(Ljava/lang/String;)*
+17*ß
+19 (ÈÅ
+ ("
+
+%0long"/java.sql.ResultSet#getLong(Ljava/lang/String;)J*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*"
+
+__unknown_file (
+id2getLong(Ljava/lang/String;)*
+18*8
+3$
+ $(")
+$ $(
+
+seges.unican.is2.Seguro*¾
+4# #(©¦
+# #(
+%16void"es.unican.is2.Seguro#setId(J)V*9
+
+__unknown_file (
+
+seges.unican.is2.Seguro*(
+
+__unknown_file (
+
+
+idlong2setId(J)*
+3*Š
+5" "(õò
+" "(
+%15void";es.unican.is2.Seguro#setFechaInicio(Ljava/time/LocalDate;)V*9
+
+__unknown_file (
+
+seges.unican.is2.Seguro*:
+
+__unknown_file (
+
+fechajava.time.LocalDate2%setFechaInicio(Ljava/time/LocalDate;)*
+4*œ
+6! !(‡„
+! !(0
+%14void"?es.unican.is2.Seguro#setConductorAdicional(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+seges.unican.is2.Seguro*D
+
+__unknown_file ((
+&
+conductorAdicionaljava.lang.String2)setConductorAdicional(Ljava/lang/String;)*
+5*Ï
+7   (º·
+   (
+%13void"$es.unican.is2.Seguro#setPotencia(I)V*9
+
+__unknown_file (
+
+seges.unican.is2.Seguro*-
+
+__unknown_file (
+
+potenciaint2setPotencia(I)*
+6*–
+8 (þ
+ (
+%12void"=es.unican.is2.Seguro#setCobertura(Les/unican/is2/Cobertura;)V*9
+
+__unknown_file (
+
+seges.unican.is2.Seguro*B
+
+__unknown_file (&
+$
+	coberturaes.unican.is2.Cobertura2'setCobertura(Les/unican/is2/Cobertura;)*
+7*ì
+9 (i
+g
+ (
+seges.unican.is2.Seguro"__id*8
+
+__unknown_file (
+
+%9es.unican.is2.Seguroìé
+ (
+%11void"6es.unican.is2.Seguro#setMatricula(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+seges.unican.is2.Seguro*;
+
+__unknown_file (
+
+	matriculajava.lang.String2 setMatricula(Ljava/lang/String;)*
+8*i
+20 (S
+Q
+ (
+seges.unican.is2.Seguro"__id*"
+
+__unknown_file (
+""*
+19*´
+10 (Gp
+n
+ (G&
+conductorAdicionaljava.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.String><
+ (
+%9es.unican.is2.Seguro"es.unican.is2.Segurom
+k
+	 (
+%10"es.unican.is2.Seguro#<init>()V*8
+
+__unknown_file (
+
+%9es.unican.is2.Seguro*
+9*ì
+11 (AZ
+X
+ (A
+potenciaint"__id*5
+
+__unknown_file (
+
+%7java.lang.Integerùö
+ (F
+%8java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*2
+
+__unknown_file (
+conductorAdicional2getString(Ljava/lang/String;)*
+10*è
+12 (@Ñ
+Î
+ (@
+%7java.lang.Integer"@java.lang.Integer#valueOf(Ljava/lang/String;)Ljava/lang/Integer;*1
+
+__unknown_file ("
+java.lang.Integer*4
+
+__unknown_file (
+
+%6java.lang.String*
+11:)
+ (0
+resultsjava.sql.ResultSetB"
+es.unican.is2.SeguroMapperHh

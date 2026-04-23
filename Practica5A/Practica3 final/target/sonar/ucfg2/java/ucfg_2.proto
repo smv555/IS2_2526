@@ -1,0 +1,122 @@
+
+Qes.unican.is2.SegurosDAO#creaSeguro(Les/unican/is2/Seguro;)Les/unican/is2/Seguro;B
+8segurosdaoh2\src\main\java\es\unican\is2\SegurosDAO.java ("startingBlock*ˆ
+startingBlock (#Œ
+‰
+ (
+
+%9"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+ses.unican.is2.SeguroY
+W
+! ("
+ses.unican.is2.Seguro"__annotation*"
+
+__unknown_file (
+
+%9*
+1*ö
+1 (!¥¢
+ (
+%0java.lang.String"5es.unican.is2.Seguro#getMatricula()Ljava/lang/String;*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro2getMatricula()¯¬
+ (
+%1java.time.LocalDate":es.unican.is2.Seguro#getFechaInicio()Ljava/time/LocalDate;*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro2getFechaInicio()œ™
+ (!
+%2java.lang.String"0java.time.LocalDate#toString()Ljava/lang/String;*7
+
+__unknown_file (
+
+%1java.time.LocalDate2
+toString()³°
+ (
+%3es.unican.is2.Cobertura"<es.unican.is2.Seguro#getCobertura()Les/unican/is2/Cobertura;*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro2getCobertura()›˜
+ (
+%4java.lang.String"+java.lang.Enum#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+%3es.unican.is2.Cobertura2
+toString()…‚
+ (	
+%5int"#es.unican.is2.Seguro#getPotencia()I*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro2getPotencia()·´
+ (
+%6java.lang.String">es.unican.is2.Seguro#getConductorAdicional()Ljava/lang/String;*7
+
+__unknown_file (
+
+ses.unican.is2.Seguro2getConductorAdicional()Å
+Â
+ (
+%7java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*˜
+
+__unknown_file (|z
+xinsert into Seguros(matricula, fechaInicio, cobertura, potencia, conductorAdicional) values ('%s', '%s', '%s', %d, '%s')*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*'
+
+__unknown_file (
+	
+%5int*4
+
+__unknown_file (
+
+%6java.lang.Stringm
+k
+ (#
+insertStatementjava.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String÷
+ô
+ (@
+
+%8void"Pes.unican.is2.H2ServerConnectionManager#executeSqlStatement(Ljava/lang/String;)V*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManager*A
+
+__unknown_file (%
+#
+insertStatementjava.lang.String"'
+ (
+
+ses.unican.is2.Seguro:%
+ ("
+ses.unican.is2.SeguroB
+es.unican.is2.SegurosDAOH
