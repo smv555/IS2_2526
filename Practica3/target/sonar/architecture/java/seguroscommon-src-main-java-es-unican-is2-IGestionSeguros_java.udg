@@ -1,0 +1,203 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774990429438*java2.Bö
+C
+>seguroscommon/src/main/java/es/unican/is2/IGestionSeguros.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+seguroscommon6
+
+package8
+ 
+seguroscommon:es.unican.is29
+#
+es.unican.is2.IGestionSeguros11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(47:2)16
+
+simple-name17
+
+IGestionSeguros18
+o
+ies.unican.is2.IGestionSeguros#nuevoSeguro(Les/unican/is2/Seguro;Ljava/lang/String;)Les/unican/is2/Seguro;20
+
+method21
+
+(21:2)-(21:96)22
+
+nuevoSeguro23
+
+es.unican.is2.Seguro25
+
+unknown26
+
+returns27
+
+	has param28
+
+
+uses29
+
+is type30
+%
+es.unican.is2.OperacionNoValida32
+'
+!es.unican.is2.DataAccessException34
+j
+des.unican.is2.IGestionSeguros#bajaSeguro(Ljava/lang/String;Ljava/lang/String;)Les/unican/is2/Seguro;36
+
+(34:2)-(34:103)37
+
+
+bajaSeguro38
+x
+res.unican.is2.IGestionSeguros#anhadeConductorAdicional(Ljava/lang/String;Ljava/lang/String;)Les/unican/is2/Seguro;40
+
+(45:2)-(45:104)41
+
+anhadeConductorAdicional42J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jø
+
+31
+313226
+N
+19H
+192021 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+22
+
+
+17
+23
+J
+10D
+101112 *
+1	 	(!:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+24
+242526
+
+33
+333426
+N
+35H
+353621 *
+1" "(210:7B$
+
+
+13
+14
+
+
+15
+37
+
+
+17
+38
+N
+39H
+394021 *
+1- -((210:7B$
+
+
+13
+14
+
+
+15
+41
+
+
+17
+42rú
+
+192427*
+1	 (
+
+192428*
+1 ("
+
+192429*
+1	 (
+
+192430*
+1# ($
+
+192429*
+1 ("
+
+193129*
+19 (J
+
+193329*
+1L (_
+
+352427*
+1"	 "(
+
+352429*
+1"	 "(
+
+353129*
+1"@ "(Q
+
+353329*
+1"S "(f
+
+392427*
+1-	 -(
+
+392429*
+1-	 -(
+
+393329*
+1-T -(g

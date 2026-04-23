@@ -1,0 +1,7 @@
+organization=isuc
+projectKey=es.unican.is2:Seguros
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.84434
+dashboardUrl=https://sonarcloud.io/dashboard?id=es.unican.is2%3ASeguros
+ceTaskId=AZ1FuwKaYe60TgP03J8a
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ1FuwKaYe60TgP03J8a

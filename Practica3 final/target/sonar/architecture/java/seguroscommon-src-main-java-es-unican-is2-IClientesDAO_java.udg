@@ -1,0 +1,261 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774991369655*java2.Bå
+@
+;seguroscommon/src/main/java/es/unican/is2/IClientesDAO.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+seguroscommon6
+
+package8
+ 
+seguroscommon:es.unican.is29
+ 
+es.unican.is2.IClientesDAO11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(60:2)16
+
+simple-name17
+
+IClientesDAO18
+\
+Ves.unican.is2.IClientesDAO#creaCliente(Les/unican/is2/Cliente;)Les/unican/is2/Cliente;20
+
+method21
+
+(20:2)-(20:67)22
+
+creaCliente23
+
+es.unican.is2.Cliente25
+
+unknown26
+
+returns27
+
+	has param28
+
+
+uses29
+
+is type30
+'
+!es.unican.is2.DataAccessException32
+S
+Mes.unican.is2.IClientesDAO#cliente(Ljava/lang/String;)Les/unican/is2/Cliente;34
+
+(30:2)-(30:64)35
+
+cliente36
+a
+[es.unican.is2.IClientesDAO#actualizaCliente(Les/unican/is2/Cliente;)Les/unican/is2/Cliente;38
+
+(39:2)-(39:76)39
+
+actualizaCliente40
+Z
+Tes.unican.is2.IClientesDAO#eliminaCliente(Ljava/lang/String;)Les/unican/is2/Cliente;42
+
+(49:2)-(49:71)43
+
+eliminaCliente44
+;
+5es.unican.is2.IClientesDAO#clientes()Ljava/util/List;46
+
+(58:2)-(58:61)47
+
+clientes48J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j„
+N
+19H
+192021 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+22
+
+
+17
+23
+
+24
+242526
+N
+41H
+414221 *
+11 1(210:7B$
+
+
+13
+14
+
+
+15
+43
+
+
+17
+44
+N
+45H
+454621 *
+1: :(210:7B$
+
+
+13
+14
+
+
+15
+47
+
+
+17
+48
+J
+10D
+101112 *
+1
+ 
+(:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+33H
+333421 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+35
+
+
+17
+36
+
+31
+313226
+N
+37H
+373821 *
+1' '(!210:7B$
+
+
+13
+14
+
+
+15
+39
+
+
+17
+40rœ
+
+192427*
+1	 (
+
+192428*
+1 ($
+
+192429*
+1	 (
+
+192430*
+1% (&
+
+192429*
+1 ($
+
+193129*
+1/ (B
+
+332427*
+1	 (
+
+332429*
+1	 (
+
+333129*
+1, (?
+
+372427*
+1'	 '(
+
+372428*
+1'" '()
+
+372429*
+1'	 '(
+
+372430*
+1'* '(/
+
+372429*
+1'" '()
+
+373129*
+1'8 '(K
+
+412427*
+11	 1(
+
+412429*
+11	 1(
+
+413129*
+113 1(F
+
+452429*
+1: :(
+
+453129*
+1:) :(<

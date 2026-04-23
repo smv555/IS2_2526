@@ -1,0 +1,291 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774990426351*java2.Bœ	
+L
+Gsegurosdaoh2/src/main/java/es/unican/is2/H2ServerConnectionManager.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+segurosdaoh26
+
+package8
+
+segurosdaoh2:es.unican.is29
+-
+'es.unican.is2.H2ServerConnectionManager11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(14:1)-(131:2)16
+
+simple-name17
+
+H2ServerConnectionManager18
+8
+2es.unican.is2.H2ServerConnectionManager.connection20
+
+field21
+
+	protected22
+
+(17:2)-(17:41)23
+
+
+connection24
+4
+.es.unican.is2.H2ServerConnectionManager.dbName26
+
+(20:2)-(20:42)27
+
+dbName28
+2
+,es.unican.is2.H2ServerConnectionManager.user30
+
+(21:2)-(21:38)31
+
+
+user32
+2
+,es.unican.is2.H2ServerConnectionManager.pass34
+
+(22:2)-(22:36)35
+
+
+pass36
+R
+Les.unican.is2.H2ServerConnectionManager#getConnection()Ljava/sql/Connection;38
+
+method39
+
+(29:2)-(41:3)40
+
+getConnection41
+'
+!es.unican.is2.DataAccessException43
+
+unknown44
+
+
+uses45
+
+
+references46
+;
+5es.unican.is2.H2ServerConnectionManager#cargaDatos()V48
+
+calls49
+
+(47:2)-(107:3)50
+
+
+cargaDatos51
+V
+Pes.unican.is2.H2ServerConnectionManager#executeSqlStatement(Ljava/lang/String;)V53
+
+(120:2)-(130:3)54
+
+executeSqlStatement55J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jê
+N
+25H
+252621 *
+1 ( 210:7B$
+
+
+13
+22
+
+
+15
+27
+
+
+17
+28
+N
+29H
+293021 *
+1 (210:7B$
+
+
+13
+22
+
+
+15
+31
+
+
+17
+32
+N
+33H
+333421 *
+1 (210:7B$
+
+
+13
+22
+
+
+15
+35
+
+
+17
+36
+N
+52H
+525339 *
+1x x((210:7B$
+
+
+13
+14
+
+
+15
+54
+
+
+17
+55
+N
+37H
+373839 *
+1 ((210:7B$
+
+
+13
+14
+
+
+15
+40
+
+
+17
+41
+
+42
+424344
+N
+47H
+474839 *
+1/ /(210:7B$
+
+
+13
+14
+
+
+15
+50
+
+
+17
+51
+N
+19H
+192021 *
+1 ((210:7B$
+
+
+13
+22
+
+
+15
+23
+
+
+17
+24
+J
+10D
+101112 *
+1 (':7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18ró
+
+374245*
+12 (E
+
+371946*
+1 (
+
+371946*
+1" "(
+
+371046*
+1# #(
+
+374749*
+1# #(
+
+374249*
+1% %("
+
+371946*
+1(
+ ((
+
+474245*
+1/) /(<
+
+471046*
+11 1("
+
+473749*
+11 1("
+
+474249*
+1h h(!
+
+524245*
+1xH x([
+
+521046*
+1y y(!
+
+523749*
+1y y(!
+
+524249*
+1Ä Ä(!

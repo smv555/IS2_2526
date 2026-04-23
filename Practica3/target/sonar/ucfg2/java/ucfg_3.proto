@@ -1,0 +1,84 @@
+
+?es.unican.is2.SegurosDAO#eliminaSeguro(J)Les/unican/is2/Seguro;B
+8segurosdaoh2\src\main\java\es\unican\is2\SegurosDAO.java ("startingBlock*è
+startingBlock (%|
+z
+ (
+
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*(
+
+__unknown_file (
+
+
+idlongJ
+H
+" ($
+
+idlong"__annotation*"
+
+__unknown_file (
+
+%4*
+1* 
+1 (ÒÏ
+ (
+%0es.unican.is2.Seguro"8es.unican.is2.SegurosDAO#seguro(J)Les/unican/is2/Seguro;*8
+
+__unknown_file (
+es.unican.is2.SegurosDAO*(
+
+__unknown_file (
+
+
+idlong2	seguro(J)l
+j
+ (
+seguroes.unican.is2.Seguro"__id*8
+
+__unknown_file (
+
+%0es.unican.is2.Seguro¿
+¼
+ (<
+%1java.sql.Connection"Les.unican.is2.H2ServerConnectionManager#getConnection()Ljava/sql/Connection;*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManagery
+w
+ (?
+%2java.lang.String"__concat*/
+ (:#!
+delete from Seguros where id = *
+= (?
+
+
+idlongk
+i
+ (@!
+statementTextjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringõ
+ò
+ (>
+
+%3void"Pes.unican.is2.H2ServerConnectionManager#executeSqlStatement(Ljava/lang/String;)V*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManager*?
+
+__unknown_file (#
+!
+statementTextjava.lang.String",
+   ( 
+
+seguroes.unican.is2.Seguro:
+ ($
+
+idlongB
+es.unican.is2.SegurosDAOH

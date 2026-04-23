@@ -1,0 +1,89 @@
+
+Ues.unican.is2.ClientesDAO#creaCliente(Les/unican/is2/Cliente;)Les/unican/is2/Cliente;C
+9segurosdaoh2\src\main\java\es\unican\is2\ClientesDAO.java ("startingBlock*ä
+startingBlock (&ç
+ä
+ (
+
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+ces.unican.is2.ClienteZ
+X
+$ (%
+ces.unican.is2.Cliente"__annotation*"
+
+__unknown_file (
+
+%5*
+1*¢
+
+1 (!õò
+ (
+%0java.lang.String"0es.unican.is2.Cliente#getDni()Ljava/lang/String;*8
+
+__unknown_file (
+
+ces.unican.is2.Cliente2getDni()°û
+ (
+%1java.lang.String"3es.unican.is2.Cliente#getNombre()Ljava/lang/String;*8
+
+__unknown_file (
+
+ces.unican.is2.Cliente2getNombre()èå
+ (
+%2boolean"&es.unican.is2.Cliente#getMinusvalia()Z*8
+
+__unknown_file (
+
+ces.unican.is2.Cliente2getMinusvalia()´
+®
+ (
+%3java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*g
+
+__unknown_file (KI
+Ginsert into Clientes(dni, nombre, minusvalia) values ('%s', '%s', '%b')*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*+
+
+__unknown_file (
+
+%2booleanm
+k
+ (#
+insertStatementjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String˜
+Ù
+ (@
+
+%4void"Pes.unican.is2.H2ServerConnectionManager#executeSqlStatement(Ljava/lang/String;)V*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManager*A
+
+__unknown_file (%
+#
+insertStatementjava.lang.String"(
+ (
+
+ces.unican.is2.Cliente:&
+ (%
+ces.unican.is2.ClienteB
+es.unican.is2.ClientesDAOH

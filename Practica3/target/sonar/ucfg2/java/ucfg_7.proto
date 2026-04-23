@@ -1,0 +1,148 @@
+
+Ues.unican.is2.SegurosDAO#seguroPorMatricula(Ljava/lang/String;)Les/unican/is2/Seguro;B
+8segurosdaoh2\src\main\java\es\unican\is2\SegurosDAO.java\ \(!"startingBlock*ì
+startingBlock\! \(3ë
+é
+[ [(
+
+%10"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	matriculajava.lang.String^
+\
+\) \(2
+	matriculajava.lang.String"__annotation*#
+
+__unknown_file (
+
+%10*
+11*ë
+4f f(}{
+f f(
+
+%7void"java.sql.Statement#close()V*=
+
+__unknown_file (!
+
+	statementjava.sql.Statement2close()*
+1*Ä
+5d d(+l
+j
+d d(+
+resultes.unican.is2.Seguro"__id*8
+
+__unknown_file (
+
+%6es.unican.is2.Seguro*
+4*à
+6d d(Û
+
+d d(+
+%6es.unican.is2.Seguro"Oes.unican.is2.SeguroMapper#toSeguro(Ljava/sql/ResultSet;)Les/unican/is2/Seguro;*:
+
+__unknown_file ("
+es.unican.is2.SeguroMapper*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*
+5*˛
+8b b(=i
+g
+b b(=
+resultsjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%4java.sql.ResultSet|z
+c c(
+%5boolean"java.sql.ResultSet#next()Z*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet2next()*
+4
+6*Ñ
+9` `(/k
+i
+` `(/
+	statementjava.sql.Statement"__id*6
+
+__unknown_file (
+
+%1java.sql.Statementó
+î
+a a(P
+%2java.lang.String"__concat*9
+a a(E-+
+)select * from Seguros where matricula = '*+
+aG a(P
+
+	matriculajava.lang.Stringg
+e
+a a(T
+%3java.lang.String"__concat*$
+a a(P
+
+%2java.lang.String*
+aQ a(T
+'k
+i
+a a(U!
+statementTextjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.Stringíè
+b b(<
+%4java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*=
+
+__unknown_file (!
+
+	statementjava.sql.Statement*?
+
+__unknown_file (#
+!
+statementTextjava.lang.String2 executeQuery(Ljava/lang/String;)*
+8*≈
+10` `(Ø¨
+` `(.
+%1java.sql.Statement"9java.sql.Connection#createStatement()Ljava/sql/Statement;*8
+
+__unknown_file (
+
+conjava.sql.Connection2createStatement()*
+9*ó
+11] ](V
+T
+] ](
+resultes.unican.is2.Seguro"__id*"
+
+__unknown_file (
+""ø
+º
+^ ^(<
+%0java.sql.Connection"Les.unican.is2.H2ServerConnectionManager#getConnection()Ljava/sql/Connection;*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManagerg
+e
+^ ^(=
+conjava.sql.Connection"__id*7
+
+__unknown_file (
+
+%0java.sql.Connection*
+10*;
+1k	 k(",
+k k( 
+
+resultes.unican.is2.Seguro:)
+\" \(2
+	matriculajava.lang.StringB
+es.unican.is2.SegurosDAOHh

@@ -1,0 +1,291 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774990429162*java2.B·	
+?
+:seguroscommon/src/main/java/es/unican/is2/ISegurosDAO.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+seguroscommon6
+
+package8
+ 
+seguroscommon:es.unican.is29
+
+es.unican.is2.ISegurosDAO11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(8:1)-(68:2)16
+
+simple-name17
+
+ISegurosDAO18
+X
+Res.unican.is2.ISegurosDAO#creaSeguro(Les/unican/is2/Seguro;)Les/unican/is2/Seguro;20
+
+method21
+
+(18:2)-(18:64)22
+
+
+creaSeguro23
+
+es.unican.is2.Seguro25
+
+unknown26
+
+returns27
+
+	has param28
+
+
+uses29
+
+is type30
+'
+!es.unican.is2.DataAccessException32
+F
+@es.unican.is2.ISegurosDAO#eliminaSeguro(J)Les/unican/is2/Seguro;34
+
+(28:2)-(28:66)35
+
+eliminaSeguro36
+]
+Wes.unican.is2.ISegurosDAO#actualizaSeguro(Les/unican/is2/Seguro;)Les/unican/is2/Seguro;38
+
+(37:2)-(37:72)39
+
+actualizaSeguro40
+?
+9es.unican.is2.ISegurosDAO#seguro(J)Les/unican/is2/Seguro;42
+
+(47:2)-(47:59)43
+
+seguro44
+\
+Ves.unican.is2.ISegurosDAO#seguroPorMatricula(Ljava/lang/String;)Les/unican/is2/Seguro;46
+
+(58:2)-(58:80)47
+
+seguroPorMatricula48
+9
+3es.unican.is2.ISegurosDAO#seguros()Ljava/util/List;50
+
+(67:2)-(67:59)51
+
+seguros52J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÔ
+N
+37H
+373821 *
+1% %(210:7B$
+
+
+13
+14
+
+
+15
+39
+
+
+17
+40
+N
+41H
+414221 *
+1/ /(210:7B$
+
+
+13
+14
+
+
+15
+43
+
+
+17
+44
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+19H
+192021 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+22
+
+
+17
+23
+
+24
+242526
+
+31
+313226
+N
+33H
+333421 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+35
+
+
+17
+36
+N
+45H
+454621 *
+1: :("210:7B$
+
+
+13
+14
+
+
+15
+47
+
+
+17
+48
+N
+49H
+495021 *
+1C C(210:7B$
+
+
+13
+14
+
+
+15
+51
+
+
+17
+52rí
+
+192427*
+1	 (
+
+192428*
+1 (!
+
+192429*
+1	 (
+
+192430*
+1" (#
+
+192429*
+1 (!
+
+193129*
+1, (?
+
+332427*
+1	 (
+
+332429*
+1	 (
+
+333129*
+1. (A
+
+372427*
+1%	 %(
+
+372428*
+1%  %(&
+
+372429*
+1%	 %(
+
+372430*
+1%' %(,
+
+372429*
+1%  %(&
+
+373129*
+1%4 %(G
+
+412427*
+1/	 /(
+
+412429*
+1/	 /(
+
+413129*
+1/' /(:
+
+452427*
+1:	 :(
+
+452429*
+1:	 :(
+
+453129*
+1:< :(O
+
+492429*
+1C C(
+
+493129*
+1C' C(:

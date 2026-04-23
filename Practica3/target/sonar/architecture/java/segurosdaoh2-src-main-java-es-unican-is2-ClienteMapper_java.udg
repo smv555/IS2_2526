@@ -1,0 +1,169 @@
+
+1.0es.unican.is2:SegurosJavaFrontend"1774990425109*java2.B–
+@
+;segurosdaoh2/src/main/java/es/unican/is2/ClienteMapper.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+segurosdaoh26
+
+package8
+
+segurosdaoh2:es.unican.is29
+!
+es.unican.is2.ClienteMapper11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(38:2)16
+
+simple-name17
+
+ClienteMapper18
+X
+Res.unican.is2.ClienteMapper#toCliente(Ljava/sql/ResultSet;)Les/unican/is2/Cliente;20
+
+method21
+
+(20:2)-(37:3)22
+
+	toCliente23
+
+es.unican.is2.Cliente25
+
+unknown26
+
+returns27
+
+
+uses28
+'
+!es.unican.is2.DataAccessException30
+
+is type31
+
+calls32
+
+
+references33
+7
+1es.unican.is2.Cliente#setDni(Ljava/lang/String;)V35
+:
+4es.unican.is2.Cliente#setNombre(Ljava/lang/String;)V37
+-
+'es.unican.is2.Cliente#setMinusvalia(Z)V39J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j€
+
+24
+242526
+
+38
+383926
+
+34
+343526
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+36
+363726
+N
+19H
+192021 *
+1 (!210:7B$
+
+
+13
+14
+
+
+15
+22
+
+
+17
+23
+
+29
+293026rß
+
+192427*
+1 (
+
+192428*
+1 (
+
+192928*
+1< (O
+
+192431*
+1 (
+
+192428*
+1 (
+
+
+192432*
+1 (
+
+192433*
+1 (
+
+193432*
+1	 (
+
+192433*
+1 (
+
+193632*
+1	 (
+
+192433*
+1 (
+
+193832*
+1	 (
+
+192932*
+1" "(!

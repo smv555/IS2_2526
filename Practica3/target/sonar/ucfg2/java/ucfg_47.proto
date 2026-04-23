@@ -1,0 +1,15 @@
+
+:es.unican.is2.Seguro#getFechaInicio()Ljava/time/LocalDate;?
+5seguroscommon\src\main\java\es\unican\is2\Seguro.java5 5( "1*¬
+16	 6(t
+r
+6	 6(
+%0java.time.LocalDate"__id*E
+
+__unknown_file ()*'
+es.unican.is2.Seguro"
+fechaInicio"'
+6 6(
+
+%0java.time.LocalDateB
+es.unican.is2.SeguroH

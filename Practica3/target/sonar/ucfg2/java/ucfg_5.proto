@@ -1,0 +1,152 @@
+
+8es.unican.is2.SegurosDAO#seguro(J)Les/unican/is2/Seguro;B
+8segurosdaoh2\src\main\java\es\unican\is2\SegurosDAO.java3 3("startingBlock*Î
+startingBlock3 3(}
+{
+2 2(
+
+%11"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*(
+
+__unknown_file (
+
+
+idlongK
+I
+3 3(
+
+idlong"__annotation*#
+
+__unknown_file (
+
+%11*
+12*ë
+5= =(}{
+= =(
+
+%7void"java.sql.Statement#close()V*=
+
+__unknown_file (!
+
+	statementjava.sql.Statement2close()*
+1*Ä
+6; ;(+l
+j
+; ;(+
+resultes.unican.is2.Seguro"__id*8
+
+__unknown_file (
+
+%6es.unican.is2.Seguro*
+5*à
+7; ;(Û
+
+; ;(+
+%6es.unican.is2.Seguro"Oes.unican.is2.SeguroMapper#toSeguro(Ljava/sql/ResultSet;)Les/unican/is2/Seguro;*:
+
+__unknown_file ("
+es.unican.is2.SeguroMapper*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet*
+6*˛
+99 9(=i
+g
+9 9(=
+resultsjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%4java.sql.ResultSet|z
+: :(
+%5boolean"java.sql.ResultSet#next()Z*;
+
+__unknown_file (
+
+resultsjava.sql.ResultSet2next()*
+5
+7*È
+107 7(/k
+i
+7 7(/
+	statementjava.sql.Statement"__id*6
+
+__unknown_file (
+
+%1java.sql.Statement|
+z
+8 8(B
+%2java.lang.String"__concat*2
+8 8(>&$
+"select * from Seguros where id = '*
+8@ 8(B
+
+
+idlongg
+e
+8 8(F
+%3java.lang.String"__concat*$
+8 8(B
+
+%2java.lang.String*
+8C 8(F
+'k
+i
+8 8(G!
+statementTextjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.Stringíè
+9 9(<
+%4java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*=
+
+__unknown_file (!
+
+	statementjava.sql.Statement*?
+
+__unknown_file (#
+!
+statementTextjava.lang.String2 executeQuery(Ljava/lang/String;)*
+9*∆
+117 7(Ø¨
+7 7(.
+%1java.sql.Statement"9java.sql.Connection#createStatement()Ljava/sql/Statement;*8
+
+__unknown_file (
+
+conjava.sql.Connection2createStatement()*
+10*ó
+124 4(V
+T
+4 4(
+resultes.unican.is2.Seguro"__id*"
+
+__unknown_file (
+""ø
+º
+5 5(<
+%0java.sql.Connection"Les.unican.is2.H2ServerConnectionManager#getConnection()Ljava/sql/Connection;*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManagerg
+e
+5 5(=
+conjava.sql.Connection"__id*7
+
+__unknown_file (
+
+%0java.sql.Connection*
+11*;
+1C	 C(",
+C C( 
+
+resultes.unican.is2.Seguro:
+3 3(
+
+idlongB
+es.unican.is2.SegurosDAOHh

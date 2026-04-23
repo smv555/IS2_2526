@@ -1,0 +1,79 @@
+
+Ses.unican.is2.ClientesDAO#eliminaCliente(Ljava/lang/String;)Les/unican/is2/Cliente;C
+9segurosdaoh2\src\main\java\es\unican\is2\ClientesDAO.javaG G("startingBlock*„
+startingBlockG G(*Š
+‡
+F F(
+
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+dnijava.lang.StringW
+U
+G& G()
+dnijava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*ë
+1H H(‡„
+H H( 
+%0es.unican.is2.Cliente"Les.unican.is2.ClientesDAO#cliente(Ljava/lang/String;)Les/unican/is2/Cliente;*9
+
+__unknown_file (
+es.unican.is2.ClientesDAO*5
+
+__unknown_file (
+
+dnijava.lang.String2cliente(Ljava/lang/String;)o
+m
+H H(! 
+clientees.unican.is2.Cliente"__id*9
+
+__unknown_file (
+
+%0es.unican.is2.Cliente¿
+¼
+I I(<
+%1java.sql.Connection"Les.unican.is2.H2ServerConnectionManager#getConnection()Ljava/sql/Connection;*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManager‰
+†
+J J(B
+%2java.lang.String"__concat*1
+J J(<%#
+!delete from Clientes where dni = *%
+J? J(B
+
+dnijava.lang.Stringk
+i
+J J(C!
+statementTextjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringõ
+ò
+K K(>
+
+%3void"Pes.unican.is2.H2ServerConnectionManager#executeSqlStatement(Ljava/lang/String;)V*G
+
+__unknown_file (+")
+'es.unican.is2.H2ServerConnectionManager*?
+
+__unknown_file (#
+!
+statementTextjava.lang.String".
+L L("
+ 
+clientees.unican.is2.Cliente:#
+G G()
+dnijava.lang.StringB
+es.unican.is2.ClientesDAOH
