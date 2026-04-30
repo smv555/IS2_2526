@@ -139,6 +139,8 @@ public class Seguro {
 			costePotencia = 1.05;
 		} else if (potencia > 110) {
 			costePotencia = 1.2;
+		} else if (potencia <= 0) {
+			throw new PotenciaNoValidaException();
 		}
 
 		if (LocalDate.now().isBefore(fechaInicio.plusYears(1)) || LocalDate.now().isEqual(fechaInicio.plusYears(1))) {
