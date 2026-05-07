@@ -116,8 +116,6 @@ public class Seguro {
 	 *         0 si el seguro todavía no está en vigor (no se ha alcanzado su fecha de inicio)
      */
 	public double precio() {
-		if (LocalDate.now().isBefore(fechaInicio))
-			return 0;
 		
 		double precio = 0;
 
@@ -145,6 +143,9 @@ public class Seguro {
 
 		if (LocalDate.now().isBefore(fechaInicio.plusYears(1)) || LocalDate.now().isEqual(fechaInicio.plusYears(1))) {
 			oferta = 0.80;
+		} 
+		if (fechaInicio.isAfter(LocalDate.now())) {
+			oferta = 0;
 		}
 
 		precio = costeCobertura*costePotencia*oferta;
